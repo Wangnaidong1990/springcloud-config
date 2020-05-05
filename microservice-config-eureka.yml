@@ -20,7 +20,7 @@ eureka:
       defaultZone: http://eureka6002.com:6002/eureka/
   server:
     enable-self-preservation: false # 禁用自我保护机制*****************
----	
+---
 server:
   port: 6002 # 服务端口
 spring:
@@ -57,8 +57,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka6002.com:6002/eureka/
   server:
-    enable-self-preservation: true # 开启自我保护机制*****************
-	
+    enable-self-preservation: true # 开启自我保护机制*****************	
 ---
 server:
   port: 6002 # 服务端口
